@@ -1,5 +1,6 @@
 <?php
-
+/*Aqui le cambiamos el idioma a la app*/
+ App::setLocale('es');
 
 Route::view('/' , 'home')->name('home');
 Route::view('/about' , 'about')->name('about');
